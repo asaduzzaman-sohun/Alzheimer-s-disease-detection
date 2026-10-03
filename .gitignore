@@ -1,0 +1,57 @@
+# ==============================================================================
+# JUPYTER, VS CODE, & GOOGLE COLAB ARTIFACTS
+# ==============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.virtual_documents/
+
+# VS Code specific files
+.vscode/
+.history/
+*.code-workspace
+
+# If you mount Google Drive locally or download Colab's default sample data
+sample_data/
+drive/
+.config/
+
+# ==============================================================================
+# ALZHEIMER'S MEDICAL DATASETS (OASIS, ADNI, etc.)
+# ==============================================================================
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Medical imaging and tabular file formats
+*.nii
+*.nii.gz
+*.dcm
+*.IMA
+*.csv
+*.tsv
+*.xlsx
+
+# ==============================================================================
+# ML/DL MODEL WEIGHTS & CHECKPOINTS
+# ==============================================================================
+models/
+weights/
+checkpoints/
+*.h5
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.onnx
+
+# ==============================================================================
+# SYSTEM & VIRTUAL ENVIRONMENTS
+# ==============================================================================
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
